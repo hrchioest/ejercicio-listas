@@ -1,0 +1,39 @@
+ul>li a {
+    text-decoration: none;
+    color: white;
+}
+#main-nav li{
+    width: 120px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px 5px 5px 5px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+#main-nav>ul>li{
+    background: rgba(3, 3, 39, 0.794);
+    height: 60px;
+    width: 120px;
+    color:white; 
+}
+#main-nav>ul>li{
+    position: relative; 
+}
+#main-nav>ul>li:hover>ul{
+    display: block;  
+}
+#main-nav>ul>li>ul{
+    position: absolute;
+    right: -1px;
+    top: 58px;
+    display: none;
+    transition: all 2s linear;
+    background: rgba(10, 10, 51, 0.411);
+    padding: 0px;
+}
+#main-nav>ul>li:hover{
+    background: rgba(10, 10, 51, 0.411);
+
+}
